@@ -1,0 +1,90 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\analyze.png" />
+    <None Remove="Resources\classification.html" />
+    <None Remove="Resources\copy.png" />
+    <None Remove="Resources\cut.png" />
+    <None Remove="Resources\grammar.html" />
+    <None Remove="Resources\graph.png" />
+    <None Remove="Resources\help.html" />
+    <None Remove="Resources\help.png" />
+    <None Remove="Resources\icon.ico" />
+    <None Remove="Resources\info.png" />
+    <None Remove="Resources\literature.html" />
+    <None Remove="Resources\method.html" />
+    <None Remove="Resources\new.png" />
+    <None Remove="Resources\open.png" />
+    <None Remove="Resources\paste.png" />
+    <None Remove="Resources\postanovka.html" />
+    <None Remove="Resources\redo.png" />
+    <None Remove="Resources\save.png" />
+    <None Remove="Resources\scaa.png" />
+    <None Remove="Resources\scanner1.png" />
+    <None Remove="Resources\source_code.html" />
+    <None Remove="Resources\test1.png" />
+    <None Remove="Resources\test2.png" />
+    <None Remove="Resources\test3.png" />
+    <None Remove="Resources\test_example.html" />
+    <None Remove="Resources\time.png" />
+    <None Remove="Resources\undo.png" />
+    <None Remove="Resources\user.png" />
+    <None Remove="Resources\uuid.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\analyze.png" />
+    <EmbeddedResource Include="Resources\classification.html" />
+    <EmbeddedResource Include="Resources\copy.png" />
+    <EmbeddedResource Include="Resources\cut.png" />
+    <EmbeddedResource Include="Resources\grammar.html" />
+    <EmbeddedResource Include="Resources\graph.png" />
+    <EmbeddedResource Include="Resources\help.html" />
+    <EmbeddedResource Include="Resources\help.png" />
+    <EmbeddedResource Include="Resources\icon.ico" />
+    <EmbeddedResource Include="Resources\info.png" />
+    <EmbeddedResource Include="Resources\literature.html" />
+    <EmbeddedResource Include="Resources\method.html" />
+    <EmbeddedResource Include="Resources\new.png" />
+    <EmbeddedResource Include="Resources\open.png" />
+    <EmbeddedResource Include="Resources\paste.png" />
+    <EmbeddedResource Include="Resources\postanovka.html" />
+    <EmbeddedResource Include="Resources\redo.png" />
+    <EmbeddedResource Include="Resources\save.png" />
+    <EmbeddedResource Include="Resources\scaa.png" />
+    <EmbeddedResource Include="Resources\scanner1.png" />
+    <EmbeddedResource Include="Resources\source_code.html" />
+    <EmbeddedResource Include="Resources\test1.png" />
+    <EmbeddedResource Include="Resources\test2.png" />
+    <EmbeddedResource Include="Resources\test3.png" />
+    <EmbeddedResource Include="Resources\test_example.html" />
+    <EmbeddedResource Include="Resources\time.png" />
+    <EmbeddedResource Include="Resources\undo.png" />
+    <EmbeddedResource Include="Resources\user.png" />
+    <EmbeddedResource Include="Resources\uuid.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
