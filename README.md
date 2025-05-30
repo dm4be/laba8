@@ -82,7 +82,7 @@ Analyze
 ## 5. Тестовые примеры
 
 ### Корректные примеры:
-```pascal
+
 ![image](https://github.com/user-attachments/assets/36dee01e-547a-4e6f-91a9-66d070b30001)
 
 ![image](https://github.com/user-attachments/assets/f94e9c94-78a0-4751-b401-ebd31e122467)
